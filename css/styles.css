@@ -1,6 +1,7 @@
 body {
-  background-color: lightgray;
+  background-color: lime;
 }
+
 
 /* navigation section */
 
@@ -37,26 +38,45 @@ body {
 
 .logo {
   margin-left: 20px;
-  width:36px;
-  height:35px;
+  width: 36px;
+  height: 35px;
   padding-top: 9px
-
 }
+
 
 /* middle section w/photo section */
 
 .introduction {
-
   background-image: url(../images/first-background.jpg);
-background-position: center bottom;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.98rem;
-
-
-
-
+  margin-left: -1px;
+  margin-top: 0px;
 }
 
+.xyPlacement {
+  width: 360px;
+  height: 200px;
+  background-color: orange;
+  margin-left:41%;
+  margin-top: -660px;
+}
 
+h1, h3 {
+  color: white;
+  width: 360px;
+  height: 50px;
+  background-color: tan;
+}
 
+button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 9px;
+  padding: 20px 20px;
+  width: 100%;
+  background-color: red
+
+}
