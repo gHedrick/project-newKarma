@@ -6,13 +6,18 @@ body {
 /* navigation section */
 
 .top-navigation {
-  background-color: lightgrey;
+  background-color: GRAY;
   border: 2px solid black;
+
 }
 
 .top-navigation > .content {
   width: 970px;
   height: 70px;
-  background-color: lightgray;
+  margin: 0 auto;
+
+
+  background-color: slategray;
   border: 2px solid green
 }
+
